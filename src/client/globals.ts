@@ -5,6 +5,7 @@ import { RouteOptions } from './data/route-options';
 import { RouteState } from './data/route-state';
 
 import { View } from './views/view';
+import { BaseLayout } from './views/layouts/base-layout';
 
 import { PAGE_ROOT } from '../globals';
 
