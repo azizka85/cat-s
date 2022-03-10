@@ -2,7 +2,7 @@ import {
   BaseLayout,
   localeRoute,
   toCamel
-} from "./chunk-MGPZ2ZF7.js";
+} from "./chunk-W7XQMS5P.js";
 import {
   DEFAULT_LANGUAGE,
   context,
@@ -12,7 +12,7 @@ import {
   routeNavigator,
   router,
   views
-} from "./chunk-PW6ZC55L.js";
+} from "./chunk-FXQVRIGC.js";
 import {
   __publicField,
   __toESM
@@ -108,9 +108,6 @@ async function loadPage(lang, page, name, layouts2, firstTime) {
     const module = await import(`./locales/${lang}.js?time=${Date.now()}`);
     languages[lang] = import_i18n.Translator.create(module.default);
   }
-  context.tr = languages[lang].translate.bind(languages[lang]);
-  document.documentElement.lang = lang;
-  document.title = context.tr("Catalog of Services");
   if (!(name in views)) {
     const module = await import(`./views/${name}.js?time=${Date.now()}`);
     parent = await module[toCamel(name)]?.instance?.init?.(parent, firstTime);
@@ -119,6 +116,9 @@ async function loadPage(lang, page, name, layouts2, firstTime) {
   }
   const firstLoad = await initLayouts(layouts2, parent, firstTime);
   if (context.page.fragment === page.fragment) {
+    context.tr = languages[lang].translate.bind(languages[lang]);
+    document.documentElement.lang = lang;
+    document.title = context.tr("Catalog of Services");
     const layout = await loadLayouts(lang, page, layouts2, firstLoad);
     if (layout["content"] !== views[name]) {
       await layout.replaceContent(views[name]);
