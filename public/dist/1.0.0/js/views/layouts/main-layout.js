@@ -2,7 +2,7 @@ import {
   BaseLayout,
   changeLangPath,
   toggleQueryParameter
-} from "../../chunk-W7XQMS5P.js";
+} from "../../chunk-US2GJ4X3.js";
 import {
   SCROLL_THRESHOLD,
   ScrollActionTo,
@@ -14,7 +14,7 @@ import {
   LANGUAGES,
   context,
   navigateHandler
-} from "../../chunk-FXQVRIGC.js";
+} from "../../chunk-XRG75RSX.js";
 import {
   __publicField
 } from "../../chunk-U3RQVIYY.js";

@@ -25,7 +25,6 @@ export const languages: {
 } = {};
 
 export interface GlobalContext {
-  page?: Page<RouteOptions, RouteState>,
   tr: (
     text: string | number, 
     defaultNumOrFormatting?: number | FormattingContext, 

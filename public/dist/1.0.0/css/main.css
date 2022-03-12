@@ -526,6 +526,11 @@ html, body {
   opacity: 0;
 }
 
+.main-content *::selection {
+  color: var(--dashboard-text-primary, white);
+  background-color: var(--dashboard-text-background-primary, #0d6efd);
+}
+
 .main-card {
   display: flex;
   align-items: center;
