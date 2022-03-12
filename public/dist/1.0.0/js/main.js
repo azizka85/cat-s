@@ -231,7 +231,6 @@ function loadPage(queue2, lang, page, name, layouts2, firstTime) {
         data = {
           status: 1 /* completed */
         };
-        throw new Error("quqabas");
       } catch (err) {
         data = {
           status: 0 /* error */,
