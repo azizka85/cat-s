@@ -198,8 +198,6 @@ export function loadPage(
         data = {
           status: TaskStatus.completed
         };
-
-        throw new Error('quqabas');
       } catch(err) {
         data = {
           status: TaskStatus.error,
