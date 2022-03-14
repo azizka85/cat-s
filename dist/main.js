@@ -1247,7 +1247,7 @@ var import_router3 = __toESM(require_router2());
 var import_ejs = __toESM(require_ejs());
 
 // src/server/templates/pages/home-page.ejs
-var home_page_default = '<div data-page="home-page">    \n  <div>\n    Home page, time: <%= data.time %> \n  </div>\n  <br>\n  <button class="btn btn-primary btn-exited" data-button="scroll-top">\n    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">\n      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>\n    </svg>\n  </button>\n  <div>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n    <br>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \n    veniam minima dolor rem alias optio! Inventore!\n  </div>\n</div>\n';
+var home_page_default = '<div data-page="home-page">    \r\n  <div>\r\n    Home page, time: <%= data.time %> \r\n  </div>\r\n  <br>\r\n  <button class="btn btn-primary btn-exited" data-button="scroll-top">\r\n    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">\r\n      <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>\r\n    </svg>\r\n  </button>\r\n  <div>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n    <br>\r\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n    Repudiandae necessitatibus blanditiis quidem aperiam veritatis \r\n    laudantium commodi exercitationem beatae, adipisci sed sapiente vero excepturi, \r\n    veniam minima dolor rem alias optio! Inventore!\r\n  </div>\r\n</div>\r\n';
 
 // src/server/templates/pages/home-page.ts
 var home_page_default2 = import_ejs.default.compile(home_page_default);
@@ -1259,42 +1259,42 @@ var import_i18n2 = __toESM(require_i18n());
 var import_ejs2 = __toESM(require_ejs());
 
 // src/server/templates/layouts/default-layout.ejs
-var default_layout_default = `<!DOCTYPE html>
-<html lang="<%= data.lang %>">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= helpers.tr('Catalog of Services') %></title>
-  <link rel='icon' type='image/png' href='<%= data.rootLink %>favicon.png'>
-  <link rel="stylesheet" href="<%= data.rootLink %>dist/<%= data.version %>/css/main.css">
-</head>
-<body>
-  <div class="splash">
-    <div class="loader" data-page="loader-page">
-      <div class="loader-container">
-        <img src="/favicon.png">
-        <div class="loader-container-progress"></div>
-      </div>
-    </div>
-  </div>
-  <script>
-    const splashElem = document.querySelector('.splash');
-
-    splashElem?.classList.add('splash-open');
-  <\/script>
-  <% if(data.content) { %> 
-    <%- 
-      partials[data.content]({
-        data: data.contentData,
-        partials,
-        helpers
-      }) 
-    %> 
-  <% } %>     
-  <script src="/dist/<%= data.version %>/js/main.js" type="module"><\/script>
-</body>
-</html>
+var default_layout_default = `<!DOCTYPE html>\r
+<html lang="<%= data.lang %>">\r
+<head>\r
+  <meta charset="UTF-8">\r
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">\r
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">\r
+  <title><%= helpers.tr('Catalog of Services') %></title>\r
+  <link rel='icon' type='image/png' href='<%= data.rootLink %>favicon.png'>\r
+  <link rel="stylesheet" href="<%= data.rootLink %>dist/<%= data.version %>/css/main.css">\r
+</head>\r
+<body>\r
+  <div class="splash">\r
+    <div class="loader" data-page="loader-page">\r
+      <div class="loader-container">\r
+        <img src="/favicon.png">\r
+        <div class="loader-container-progress"></div>\r
+      </div>\r
+    </div>\r
+  </div>\r
+  <script>\r
+    const splashElem = document.querySelector('.splash');\r
+\r
+    splashElem?.classList.add('splash-open');\r
+  <\/script>\r
+  <% if(data.content) { %> \r
+    <%- \r
+      partials[data.content]({\r
+        data: data.contentData,\r
+        partials,\r
+        helpers\r
+      }) \r
+    %> \r
+  <% } %>     \r
+  <script src="/dist/<%= data.version %>/js/main.js" type="module"><\/script>\r
+</body>\r
+</html>\r
 `;
 
 // src/server/templates/layouts/default-layout.ts
@@ -1304,264 +1304,264 @@ var default_layout_default2 = import_ejs2.default.compile(default_layout_default
 var import_ejs3 = __toESM(require_ejs());
 
 // src/server/templates/layouts/main-layout.ejs
-var main_layout_default = `<div data-layout="main-layout">
-  <header class="app-bar">
-    <div class="app-bar-row">      
-      <div class="app-bar-section app-bar-section-fill">
-        <div class="search">
-          <form method="post">          
-            <input 
-              type="text" 
-              name="search" 
-              class="search-input app-bar-title"
-              autocomplete="off"
-            >
-            <svg class="search-icon search-icon-left" viewBox="0 0 16 16">
-              <path 
-                fill-rule="evenodd" 
-                d="
-                  M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 
-                  4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z
-                "
-              />
-            </svg>
-            <svg class="search-icon search-icon-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
-              <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
-            </svg>
-          </form>    
-          <div class="search-list"></div>    
-        </div>
-      </div>
-      <div class="app-bar-section app-bar-section-align-start">
-        <a 
-          data-button="navigation"          
-          href="?<%= helpers.toggleQueryParameter(data.query, 'main-layout-navigation') %> "
-        >
-          <svg class="app-bar-icon" viewBox="0 0 16 16">
-            <path 
-              fill-rule="evenodd" 
-              d="
-                M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 
-                .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 
-                0 1H3a.5.5 0 0 1-.5-.5z
-              "
-            />
-          </svg>          
-        </a>
-      </div>
-      <div class="app-bar-section app-bar-section-align-end">
-        <a 
-          data-button="search"
-          href="?<%= helpers.toggleQueryParameter(data.query, 'main-layout-search') %> "
-        >
-          <svg class="app-bar-icon" viewBox="0 0 16 16">
-            <path 
-              d="
-                M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 
-                1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 
-                0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 
-                0 0 1-.5-.5z
-              "
-            />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </header>
-  <aside class="drawer drawer-hoverable <%= data.navigation ? 'drawer-open' : '' %>">
-    <div class="drawer-header">
-      <a 
-        data-button="header-navigation"
-        href="?<%= helpers.toggleQueryParameter(data.query, 'main-layout-navigation') %> "
-        data-icon="header-navigation-icon"
-      >
-        <svg  
-          class="drawer-header-icon <%= data.navigation ? '' : 'drawer-header-icon-hide' %>" 
-          viewBox="0 0 16 16"
-          data-icon="header-navigation-icon"
-        >
-          <path 
-            d="
-              M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 
-              2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z
-            "
-          />
-        </svg>                       
-      </a>
-    </div>
-    <div class="drawer-content">
-      <div class="drawer-account-bar">
-        <div class="drawer-account-bar-avatar">   
-          <% if(data.user) { %>   
-            <img 
-              src="<%= data.user.photo %>" 
-              alt="<%= data.user.name %>"
-              class="drawer-account-bar-avatar-photo"
-            >
-          <% } else { %>
-            <svg class="drawer-account-bar-avatar-icon" viewBox="0 0 16 16">
-              <path 
-                d="
-                  M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 
-                  0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 
-                  10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z
-                "
-              />
-            </svg>
-          <% } %> 
-        </div>
-        <div class="drawer-account-bar-actions">   
-          <% if(data.user) { %>   
-            <a 
-              href="#"
-              data-content="user-name"
-              style="white-space: nowrap; overflow: hidden;"
-            >
-              <%= data.user.name %>
-            </a>
-            <a 
-              href="/auth/sign-out?redirect=/<%= data.lang %>/sign-in" 
-              data-content="sign-out"
-              style="white-space: nowrap; overflow: hidden;"
-            >
-              <%= helpers.tr('Sign Out') %>
-            </a>
-          <% } else { %>  
-            <a 
-              href="/<%= data.lang %>/sign-in" 
-              data-content="sign-in-up"
-              style="white-space: nowrap; overflow: hidden;"
-            >
-              <%= helpers.tr('Sign In/Up') %>
-            </a>
-          <% } %>       
-        </div>
-      </div>
-      <div class="drawer-lang-bar">
-        <img 
-          src="<%= data.languages[data.lang].image %>" 
-          class="drawer-lang-bar-flag"
-          data-image="lang"
-        >
-        <label>
-          <input type="checkbox">
-          <div class="drawer-lang-bar-current">            
-            <span data-content="lang">
-              <%= data.languages[data.lang].label %>            
-            </span> 
-            <svg class="drawer-lang-bar-current-icon" viewBox="0 0 16 16">
-              <path 
-                fill-rule="evenodd" 
-                d="
-                  M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 
-                  0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 
-                  3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z
-                "
-              />
-            </svg>
-            <div class="drawer-lang-bar-current-progress"></div>
-          </div>
-          <div class="list" data-list="lang">
-            <a 
-              data-list-item="lang-kz"
-              class="list-item <%= data.lang === 'kz' ? 'list-item-activated' : '' %>"
-              href="/<%= helpers.changeLangPath(data.url, 'kz') %>"
-            >
-              <img 
-                src="/images/flags/kz.svg" 
-                class="drawer-lang-bar-flag"
-              >
-              <%= data.languages['kz'].label %>
-            </a>
-            <a 
-              data-list-item="lang-ru"
-              class="list-item <%= data.lang === 'ru' ? 'list-item-activated' : '' %>"
-              href="/<%= helpers.changeLangPath(data.url, 'ru') %>"
-            >
-              <img 
-                src="/images/flags/ru.svg" 
-                class="drawer-lang-bar-flag"
-              >
-              <%= data.languages['ru'].label %>
-            </a>
-            <a 
-              data-list-item="lang-en"
-              class="list-item <%= data.lang === 'en' ? 'list-item-activated' : '' %>"
-              href="/<%= helpers.changeLangPath(data.url, 'en') %>"
-            >
-              <img 
-                src="/images/flags/en.svg" 
-                class="drawer-lang-bar-flag"
-              >
-              <%= data.languages['en'].label %>
-            </a>
-          </div>
-        </label>
-      </div>
-      <div class="list" data-list="main">
-        <a class="list-item list-item-activated">          
-          <svg class="list-item-icon" viewBox="0 0 16 16">
-            <path 
-              d="
-                M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 
-                1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 
-                0 0 0 11.02 4H4.98zm-1.17-.437A1.5 1.5 0 0 1 4.98 
-                3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 
-                .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 
-                0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374l3.7-4.625z
-              "
-            />
-          </svg>
-          Inbox
-        </a>
-        <a class="list-item">
-          <svg class="list-item-icon" viewBox="0 0 16 16">
-            <path 
-              fill-rule="evenodd" 
-              d="
-                M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 
-                0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 
-                0 0 0 .886-.083l6-15Zm-1.833 1.89.471-1.178-1.178.471L5.93 9.363l.338.215a.5.5 
-                0 0 1 .154.154l.215.338 7.494-7.494Z
-              "
-            />
-          </svg>
-          Outgoing
-        </a>
-        <a class="list-item">          
-          <svg class="list-item-icon" viewBox="0 0 16 16">
-            <path 
-              d="
-                M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 
-                1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 
-                1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 
-                1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 
-                1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 
-                2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 
-                1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 
-                1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 
-                1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z
-              "
-            />
-          </svg>
-          Settings
-        </a>
-      </div>
-    </div>
-  </aside>
-  <main id="main-content" class="main-content app-bar-fixed-adjust">
-    <% if(data.content) { %> 
-      <%- 
-        partials[data.content]({
-          data: data.contentData,
-          partials,
-          helpers
-        }) 
-      %> 
-    <% } %> 
-  </main>
-</div>
+var main_layout_default = `<div data-layout="main-layout">\r
+  <header class="app-bar">\r
+    <div class="app-bar-row">      \r
+      <div class="app-bar-section app-bar-section-fill">\r
+        <div class="search">\r
+          <form method="post">          \r
+            <input \r
+              type="text" \r
+              name="search" \r
+              class="search-input app-bar-title"\r
+              autocomplete="off"\r
+            >\r
+            <svg class="search-icon search-icon-left" viewBox="0 0 16 16">\r
+              <path \r
+                fill-rule="evenodd" \r
+                d="\r
+                  M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 \r
+                  4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z\r
+                "\r
+              />\r
+            </svg>\r
+            <svg class="search-icon search-icon-right" viewBox="0 0 16 16">\r
+              <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>\r
+              <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>\r
+            </svg>\r
+          </form>    \r
+          <div class="search-list"></div>    \r
+        </div>\r
+      </div>\r
+      <div class="app-bar-section app-bar-section-align-start">\r
+        <a \r
+          data-button="navigation"          \r
+          href="?<%= helpers.toggleQueryParameter(data.query, 'main-layout-navigation') %> "\r
+        >\r
+          <svg class="app-bar-icon" viewBox="0 0 16 16">\r
+            <path \r
+              fill-rule="evenodd" \r
+              d="\r
+                M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 \r
+                .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 \r
+                0 1H3a.5.5 0 0 1-.5-.5z\r
+              "\r
+            />\r
+          </svg>          \r
+        </a>\r
+      </div>\r
+      <div class="app-bar-section app-bar-section-align-end">\r
+        <a \r
+          data-button="search"\r
+          href="?<%= helpers.toggleQueryParameter(data.query, 'main-layout-search') %> "\r
+        >\r
+          <svg class="app-bar-icon" viewBox="0 0 16 16">\r
+            <path \r
+              d="\r
+                M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 \r
+                1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 \r
+                0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 \r
+                0 0 1-.5-.5z\r
+              "\r
+            />\r
+          </svg>\r
+        </a>\r
+      </div>\r
+    </div>\r
+  </header>\r
+  <aside class="drawer drawer-hoverable <%= data.navigation ? 'drawer-open' : '' %>">\r
+    <div class="drawer-header">\r
+      <a \r
+        data-button="header-navigation"\r
+        href="?<%= helpers.toggleQueryParameter(data.query, 'main-layout-navigation') %> "\r
+        data-icon="header-navigation-icon"\r
+      >\r
+        <svg  \r
+          class="drawer-header-icon <%= data.navigation ? '' : 'drawer-header-icon-hide' %>" \r
+          viewBox="0 0 16 16"\r
+          data-icon="header-navigation-icon"\r
+        >\r
+          <path \r
+            d="\r
+              M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 \r
+              2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z\r
+            "\r
+          />\r
+        </svg>                       \r
+      </a>\r
+    </div>\r
+    <div class="drawer-content">\r
+      <div class="drawer-account-bar">\r
+        <div class="drawer-account-bar-avatar">   \r
+          <% if(data.user) { %>   \r
+            <img \r
+              src="<%= data.user.photo %>" \r
+              alt="<%= data.user.name %>"\r
+              class="drawer-account-bar-avatar-photo"\r
+            >\r
+          <% } else { %>\r
+            <svg class="drawer-account-bar-avatar-icon" viewBox="0 0 16 16">\r
+              <path \r
+                d="\r
+                  M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 \r
+                  0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 \r
+                  10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z\r
+                "\r
+              />\r
+            </svg>\r
+          <% } %> \r
+        </div>\r
+        <div class="drawer-account-bar-actions">   \r
+          <% if(data.user) { %>   \r
+            <a \r
+              href="#"\r
+              data-content="user-name"\r
+              style="white-space: nowrap; overflow: hidden;"\r
+            >\r
+              <%= data.user.name %>\r
+            </a>\r
+            <a \r
+              href="/auth/sign-out?redirect=/<%= data.lang %>/sign-in" \r
+              data-content="sign-out"\r
+              style="white-space: nowrap; overflow: hidden;"\r
+            >\r
+              <%= helpers.tr('Sign Out') %>\r
+            </a>\r
+          <% } else { %>  \r
+            <a \r
+              href="/<%= data.lang %>/sign-in" \r
+              data-content="sign-in-up"\r
+              style="white-space: nowrap; overflow: hidden;"\r
+            >\r
+              <%= helpers.tr('Sign In/Up') %>\r
+            </a>\r
+          <% } %>       \r
+        </div>\r
+      </div>\r
+      <div class="drawer-lang-bar">\r
+        <img \r
+          src="<%= data.languages[data.lang].image %>" \r
+          class="drawer-lang-bar-flag"\r
+          data-image="lang"\r
+        >\r
+        <label>\r
+          <input type="checkbox">\r
+          <div class="drawer-lang-bar-current">            \r
+            <span data-content="lang">\r
+              <%= data.languages[data.lang].label %>            \r
+            </span> \r
+            <svg class="drawer-lang-bar-current-icon" viewBox="0 0 16 16">\r
+              <path \r
+                fill-rule="evenodd" \r
+                d="\r
+                  M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 \r
+                  0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 \r
+                  3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z\r
+                "\r
+              />\r
+            </svg>\r
+            <div class="drawer-lang-bar-current-progress"></div>\r
+          </div>\r
+          <div class="list" data-list="lang">\r
+            <a \r
+              data-list-item="lang-kz"\r
+              class="list-item <%= data.lang === 'kz' ? 'list-item-activated' : '' %>"\r
+              href="/<%= helpers.changeLangPath(data.url, 'kz') %>"\r
+            >\r
+              <img \r
+                src="/images/flags/kz.svg" \r
+                class="drawer-lang-bar-flag"\r
+              >\r
+              <%= data.languages['kz'].label %>\r
+            </a>\r
+            <a \r
+              data-list-item="lang-ru"\r
+              class="list-item <%= data.lang === 'ru' ? 'list-item-activated' : '' %>"\r
+              href="/<%= helpers.changeLangPath(data.url, 'ru') %>"\r
+            >\r
+              <img \r
+                src="/images/flags/ru.svg" \r
+                class="drawer-lang-bar-flag"\r
+              >\r
+              <%= data.languages['ru'].label %>\r
+            </a>\r
+            <a \r
+              data-list-item="lang-en"\r
+              class="list-item <%= data.lang === 'en' ? 'list-item-activated' : '' %>"\r
+              href="/<%= helpers.changeLangPath(data.url, 'en') %>"\r
+            >\r
+              <img \r
+                src="/images/flags/en.svg" \r
+                class="drawer-lang-bar-flag"\r
+              >\r
+              <%= data.languages['en'].label %>\r
+            </a>\r
+          </div>\r
+        </label>\r
+      </div>\r
+      <div class="list" data-list="main">\r
+        <a class="list-item list-item-activated">          \r
+          <svg class="list-item-icon" viewBox="0 0 16 16">\r
+            <path \r
+              d="\r
+                M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 \r
+                1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 \r
+                0 0 0 11.02 4H4.98zm-1.17-.437A1.5 1.5 0 0 1 4.98 \r
+                3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 \r
+                .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 \r
+                0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374l3.7-4.625z\r
+              "\r
+            />\r
+          </svg>\r
+          Inbox\r
+        </a>\r
+        <a class="list-item">\r
+          <svg class="list-item-icon" viewBox="0 0 16 16">\r
+            <path \r
+              fill-rule="evenodd" \r
+              d="\r
+                M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 \r
+                0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 \r
+                0 0 0 .886-.083l6-15Zm-1.833 1.89.471-1.178-1.178.471L5.93 9.363l.338.215a.5.5 \r
+                0 0 1 .154.154l.215.338 7.494-7.494Z\r
+              "\r
+            />\r
+          </svg>\r
+          Outgoing\r
+        </a>\r
+        <a class="list-item">          \r
+          <svg class="list-item-icon" viewBox="0 0 16 16">\r
+            <path \r
+              d="\r
+                M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 \r
+                1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 \r
+                1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 \r
+                1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 \r
+                1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 \r
+                2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 \r
+                1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 \r
+                1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 \r
+                1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z\r
+              "\r
+            />\r
+          </svg>\r
+          Settings\r
+        </a>\r
+      </div>\r
+    </div>\r
+  </aside>\r
+  <main id="main-content" class="main-content app-bar-fixed-adjust">\r
+    <% if(data.content) { %> \r
+      <%- \r
+        partials[data.content]({\r
+          data: data.contentData,\r
+          partials,\r
+          helpers\r
+        }) \r
+      %> \r
+    <% } %> \r
+  </main>\r
+</div>\r
 `;
 
 // src/server/templates/layouts/main-layout.ts
@@ -1823,86 +1823,86 @@ var routes_default = [{
 var import_ejs4 = __toESM(require_ejs());
 
 // src/server/templates/pages/sign-in-page.ejs
-var sign_in_page_default = `<div data-page="signin-page">
-  <div class="main-card">
-    <div class="card main-card-body">
-      <div class="card-body">
-        <h2 
-          data-title="main"
-          style="text-transform: uppercase; font-weight: lighter;"
-        >
-          <%= helpers.tr('Sign In') %>
-        </h2>
-        <form method="post" class="mb-1">
-          <div class="form-item mb-1">
-            <label class="form-label">            
-              <input 
-                type="email" 
-                name="email" 
-                id="email" 
-                class="form-control" 
-                placeholder="Email*"
-                required                
-              >          
-              <span>
-                Email*
-              </span>
-            </label>          
-          </div>
-          <div class="form-item mb-1">
-            <label class="form-label">
-              <input 
-                type="password" 
-                name="password" 
-                id="password" 
-                class="form-control" 
-                placeholder="<%= helpers.tr('Password') %>*"
-                required
-              >
-              <span 
-                id="password-label"
-              >
-                <%= helpers.tr('Password') %>*
-              </span>
-            </label>          
-          </div>
-          <div style="text-align: right;" class="mb-1">
-            <a 
-              class="btn btn-light" 
-              href="<%= data.rootLink %>sign-up" 
-              data-button="sign-up"
-            >
-              <%= helpers.tr('Sign Up') %> 
-            </a>
-          </div>
-          <div style="text-align: right;">
-            <button 
-              type="submit" 
-              class="btn btn-success"
-              data-button="sign-in"
-            >
-              <%= helpers.tr('Sign In') %> 
-            </button>
-            <a 
-              class="btn btn-danger" 
-              href="<%= data.rootLink %> "
-              data-button="cancel"
-            >
-              <%= helpers.tr('Cancel') %> 
-            </a>
-          </div>
-        </form>
-        <%- 
-          partials['auth-service-component']({
-            data,
-            partials,
-            helpers
-          })
-        %> 
-      </div>
-    </div>
-  </div>  
-</div>
+var sign_in_page_default = `<div data-page="signin-page">\r
+  <div class="main-card">\r
+    <div class="card main-card-body">\r
+      <div class="card-body">\r
+        <h2 \r
+          data-title="main"\r
+          style="text-transform: uppercase; font-weight: lighter;"\r
+        >\r
+          <%= helpers.tr('Sign In') %>\r
+        </h2>\r
+        <form method="post" class="mb-1">\r
+          <div class="form-item mb-1">\r
+            <label class="form-label">            \r
+              <input \r
+                type="email" \r
+                name="email" \r
+                id="email" \r
+                class="form-control" \r
+                placeholder="Email*"\r
+                required                \r
+              >          \r
+              <span>\r
+                Email*\r
+              </span>\r
+            </label>          \r
+          </div>\r
+          <div class="form-item mb-1">\r
+            <label class="form-label">\r
+              <input \r
+                type="password" \r
+                name="password" \r
+                id="password" \r
+                class="form-control" \r
+                placeholder="<%= helpers.tr('Password') %>*"\r
+                required\r
+              >\r
+              <span \r
+                id="password-label"\r
+              >\r
+                <%= helpers.tr('Password') %>*\r
+              </span>\r
+            </label>          \r
+          </div>\r
+          <div style="text-align: right;" class="mb-1">\r
+            <a \r
+              class="btn btn-light" \r
+              href="<%= data.rootLink %>sign-up" \r
+              data-button="sign-up"\r
+            >\r
+              <%= helpers.tr('Sign Up') %> \r
+            </a>\r
+          </div>\r
+          <div style="text-align: right;">\r
+            <button \r
+              type="submit" \r
+              class="btn btn-success"\r
+              data-button="sign-in"\r
+            >\r
+              <%= helpers.tr('Sign In') %> \r
+            </button>\r
+            <a \r
+              class="btn btn-danger" \r
+              href="<%= data.rootLink %> "\r
+              data-button="cancel"\r
+            >\r
+              <%= helpers.tr('Cancel') %> \r
+            </a>\r
+          </div>\r
+        </form>\r
+        <%- \r
+          partials['auth-service-component']({\r
+            data,\r
+            partials,\r
+            helpers\r
+          })\r
+        %> \r
+      </div>\r
+    </div>\r
+  </div>  \r
+</div>\r
 `;
 
 // src/server/templates/pages/sign-in-page.ts
@@ -1912,33 +1912,33 @@ var sign_in_page_default2 = import_ejs4.default.compile(sign_in_page_default);
 var import_ejs5 = __toESM(require_ejs());
 
 // src/server/templates/components/auth-service-component.ejs
-var auth_service_component_default = `<h3 
-  style="text-transform: uppercase; font-weight: lighter;"
-  data-title="auth-service"
->
-  <%= helpers.tr('Or use the service') %>
-</h3>
-<div>
-  <a
-    href="/auth/service/github?lang=<%= data.lang %>"  
-    data-button="auth-service-github" 
-    title="GitHub"
-  >
-    <svg class="main-card-service-icon" viewBox="0 0 16 16">
-      <path 
-        d="
-          M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 
-          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 
-          1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 
-          0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 
-          1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 
-          3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 
-          8c0-4.42-3.58-8-8-8z
-        "
-      />
-    </svg>    
-  </a>
-</div>
+var auth_service_component_default = `<h3 \r
+  style="text-transform: uppercase; font-weight: lighter;"\r
+  data-title="auth-service"\r
+>\r
+  <%= helpers.tr('Or use the service') %>\r
+</h3>\r
+<div>\r
+  <a\r
+    href="/auth/service/github?lang=<%= data.lang %>"  \r
+    data-button="auth-service-github" \r
+    title="GitHub"\r
+  >\r
+    <svg class="main-card-service-icon" viewBox="0 0 16 16">\r
+      <path \r
+        d="\r
+          M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 \r
+          0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 \r
+          1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 \r
+          0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 \r
+          1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 \r
+          3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 \r
+          8c0-4.42-3.58-8-8-8z\r
+        "\r
+      />\r
+    </svg>    \r
+  </a>\r
+</div>\r
 `;
 
 // src/server/templates/components/auth-service-component.ts
@@ -1968,131 +1968,131 @@ var routes_default2 = [{
 var import_ejs6 = __toESM(require_ejs());
 
 // src/server/templates/pages/sign-up-page.ejs
-var sign_up_page_default = `<div data-page="signup-page">
-  <div class="main-card">
-    <div class="card main-card-body">
-      <div class="card-body">
-        <h2 
-          data-title="main"
-          style="text-transform: uppercase; font-weight: lighter;"
-        >
-          <%= helpers.tr('Sign Up') %>
-        </h2>
-        <form method="post" class="mb-1">
-          <div class="form-item mb-1">
-            <label 
-              for="name" 
-              class="form-label"            
-            >
-              <input 
-                type="text" 
-                name="name" 
-                id="name" 
-                class="form-control" 
-                placeholder="<%= helpers.tr('Name') %>*"
-                required
-              >
-              <span 
-                id="name-label"
-              >
-                <%= helpers.tr('Name') %>*
-              </span>            
-            </label>          
-          </div>
-          <div class="form-item mb-1">
-            <label 
-              for="email" 
-              class="form-label"
-            >
-              <input 
-                type="email" 
-                name="email" 
-                id="email" 
-                class="form-control" 
-                placeholder="Email*"
-                required
-              >          
-              <span>
-                Email*
-              </span>
-            </label>          
-          </div>
-          <div class="form-item mb-1">
-            <label 
-              for="password" 
-              class="form-label"            
-            >
-              <input 
-                type="password" 
-                name="password" 
-                id="password" 
-                class="form-control" 
-                placeholder="<%= helpers.tr('Password') %>*"
-                required
-              >
-              <span 
-                id="password-label"
-              >
-                <%= helpers.tr('Password') %>* 
-              </span>
-            </label>          
-          </div>
-          <div class="form-item mb-1">
-            <label 
-              for="photo" 
-              class="form-label"            
-            >
-              <input 
-                type="text" 
-                name="photo" 
-                id="photo" 
-                class="form-control" 
-                placeholder="http://"
-              >
-              <span 
-                id="photo-label"
-              >
-                <%= helpers.tr('Photo') %>
-              </span>
-            </label>          
-          </div>
-          <div style="text-align: right;" class="mb-1">
-            <a 
-              class="btn btn-light" 
-              href="<%= data.rootLink %>sign-in"
-              data-button="sign-in"
-            >
-              <%= helpers.tr('Sign In') %> 
-            </a>
-          </div>
-          <div style="text-align: right;">
-            <button 
-              type="submit" 
-              class="btn btn-success"
-              data-button="sign-up"
-            >
-              <%= helpers.tr('Sign Up') %> 
-            </button>
-            <a 
-              class="btn btn-danger" 
-              href="<%= data.rootLink %>"
-              data-button="cancel"
-            >
-              <%= helpers.tr('Cancel') %> 
-            </a>
-          </div>
-        </form>
-        <%- 
-          partials['auth-service-component']({
-            data,
-            partials,
-            helpers
-          })
-        %> 
-      </div>
-    </div>
-  </div>  
-</div>
+var sign_up_page_default = `<div data-page="signup-page">\r
+  <div class="main-card">\r
+    <div class="card main-card-body">\r
+      <div class="card-body">\r
+        <h2 \r
+          data-title="main"\r
+          style="text-transform: uppercase; font-weight: lighter;"\r
+        >\r
+          <%= helpers.tr('Sign Up') %>\r
+        </h2>\r
+        <form method="post" class="mb-1">\r
+          <div class="form-item mb-1">\r
+            <label \r
+              for="name" \r
+              class="form-label"            \r
+            >\r
+              <input \r
+                type="text" \r
+                name="name" \r
+                id="name" \r
+                class="form-control" \r
+                placeholder="<%= helpers.tr('Name') %>*"\r
+                required\r
+              >\r
+              <span \r
+                id="name-label"\r
+              >\r
+                <%= helpers.tr('Name') %>*\r
+              </span>            \r
+            </label>          \r
+          </div>\r
+          <div class="form-item mb-1">\r
+            <label \r
+              for="email" \r
+              class="form-label"\r
+            >\r
+              <input \r
+                type="email" \r
+                name="email" \r
+                id="email" \r
+                class="form-control" \r
+                placeholder="Email*"\r
+                required\r
+              >          \r
+              <span>\r
+                Email*\r
+              </span>\r
+            </label>          \r
+          </div>\r
+          <div class="form-item mb-1">\r
+            <label \r
+              for="password" \r
+              class="form-label"            \r
+            >\r
+              <input \r
+                type="password" \r
+                name="password" \r
+                id="password" \r
+                class="form-control" \r
+                placeholder="<%= helpers.tr('Password') %>*"\r
+                required\r
+              >\r
+              <span \r
+                id="password-label"\r
+              >\r
+                <%= helpers.tr('Password') %>* \r
+              </span>\r
+            </label>          \r
+          </div>\r
+          <div class="form-item mb-1">\r
+            <label \r
+              for="photo" \r
+              class="form-label"            \r
+            >\r
+              <input \r
+                type="text" \r
+                name="photo" \r
+                id="photo" \r
+                class="form-control" \r
+                placeholder="http://"\r
+              >\r
+              <span \r
+                id="photo-label"\r
+              >\r
+                <%= helpers.tr('Photo') %>\r
+              </span>\r
+            </label>          \r
+          </div>\r
+          <div style="text-align: right;" class="mb-1">\r
+            <a \r
+              class="btn btn-light" \r
+              href="<%= data.rootLink %>sign-in"\r
+              data-button="sign-in"\r
+            >\r
+              <%= helpers.tr('Sign In') %> \r
+            </a>\r
+          </div>\r
+          <div style="text-align: right;">\r
+            <button \r
+              type="submit" \r
+              class="btn btn-success"\r
+              data-button="sign-up"\r
+            >\r
+              <%= helpers.tr('Sign Up') %> \r
+            </button>\r
+            <a \r
+              class="btn btn-danger" \r
+              href="<%= data.rootLink %>"\r
+              data-button="cancel"\r
+            >\r
+              <%= helpers.tr('Cancel') %> \r
+            </a>\r
+          </div>\r
+        </form>\r
+        <%- \r
+          partials['auth-service-component']({\r
+            data,\r
+            partials,\r
+            helpers\r
+          })\r
+        %> \r
+      </div>\r
+    </div>\r
+  </div>  \r
+</div>\r
 `;
 
 // src/server/templates/pages/sign-up-page.ts
