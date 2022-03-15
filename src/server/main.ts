@@ -4,15 +4,27 @@ import app from './app';
 
 import { RouteState } from './data/route-state';
 
-import { fragment, query } from './helpers';
+import { fragment, generateId, parseCookies, query, setCookie } from './helpers';
+import { clearExpiredSessions, getSessionData, setSessionData } from './helpers/session-helpers';
 
 const port = parseInt(process.env.PORT || '3000');
 
-const server = createServer((req, res) => {
+const server = createServer(async (req, res) => {
+  await clearExpiredSessions();
+
+  const cookies = parseCookies(req);
+  const sessionId = cookies.sessionId || generateId();
+
   const state: RouteState = {
     request: req,
-    response: res
+    response: res,
+    session: await getSessionData(sessionId)
   };
+
+  setCookie(res, 'sessionId', sessionId, {
+    'Max-Age': `${24*3600}`,
+    'Path': '/'
+  });
 
   const splits = req.url?.split('?') || [];
 
@@ -21,7 +33,15 @@ const server = createServer((req, res) => {
 
   app
     .processUrl(currentPath, currentQuery, state)
-    .finally(() => res.end()); 
+    .catch(err => {
+      res.statusCode = 500;
+      console.error(err);
+    })
+    .finally(async () => {
+      res.end();
+
+      await setSessionData(sessionId, state.session);
+    }); 
 });
 
 server.listen(port, undefined, undefined, () => {
