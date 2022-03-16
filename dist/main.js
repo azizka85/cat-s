@@ -1638,7 +1638,12 @@ var en_default = {
     "Photo": "Photo",
     "Cancel": "Cancel",
     "Or use the service": "Or use the service",
-    "Auth service": "Auth service"
+    "Auth service": "Auth service",
+    "User with this email and password doesn't exist": "User with this email and password doesn't exist",
+    "User with this email already exists": "User with this email already exists",
+    "Email required": "Email required",
+    "Name required": "Name required",
+    "Password required": "Password required"
   }
 };
 
@@ -1655,7 +1660,12 @@ var ru_default = {
     "Cancel": "\u041E\u0442\u043C\u0435\u043D\u0430",
     "Photo": "\u0424\u043E\u0442\u043E",
     "Or use the service": "\u0418\u043B\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u0441\u0435\u0440\u0432\u0438\u0441",
-    "Auth service": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438"
+    "Auth service": "\u0421\u0435\u0440\u0432\u0438\u0441 \u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438",
+    "User with this email and password doesn't exist": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C \u0441 \u0442\u0430\u043A\u0438\u043C email \u0438 \u043F\u0430\u0440\u043E\u043B\u0435\u043C \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D",
+    "User with this email already exists": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C \u0441 \u0442\u0430\u043A\u0438\u043C email \u0443\u0436\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442",
+    "Email required": "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E \u0437\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u044C email",
+    "Name required": "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E \u0437\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u0438\u043C\u044F",
+    "Password required": "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E \u0437\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u043F\u0430\u0440\u043E\u043B\u044C"
   }
 };
 
@@ -1672,7 +1682,12 @@ var kz_default = {
     "Photo": "\u0424\u043E\u0442\u043E",
     "Cancel": "\u0411\u043E\u043B\u0434\u044B\u0440\u043C\u0430\u0443",
     "Or use the service": "\u041D\u0435\u043C\u0435\u0441\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u0442\u0456 \u049B\u043E\u043B\u0434\u0430\u04A3\u044B\u0437",
-    "Auth service": "\u0410\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u044F \u0441\u0435\u0440\u0432\u0438\u0441\u0456"
+    "Auth service": "\u0410\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u044F \u0441\u0435\u0440\u0432\u0438\u0441\u0456",
+    "User with this email and password doesn't exist": "\u049A\u043E\u043B\u0434\u0430\u043D\u0443\u0448\u044B \u043E\u0441\u044B\u043D\u0434\u0430\u0439 email \u0436\u04D9\u043D\u0435 \u043F\u0430\u0440\u043E\u043B\u044C\u043C\u0435\u043D \u0442\u0430\u0431\u044B\u043B\u0493\u0430\u043D \u0436\u043E\u049B",
+    "User with this email already exists": "\u049A\u043E\u043B\u0434\u0430\u043D\u0443\u0448\u044B \u043E\u0441\u044B\u043D\u0434\u0430\u0439 email \u0431\u0430\u0440",
+    "Email required": "Email \u0442\u043E\u043B\u0442\u044B\u0440\u0443 \u043A\u0435\u0440\u0435\u043A",
+    "Name required": "\u0410\u0442\u044B\u04A3\u0434\u044B \u0442\u043E\u043B\u0442\u044B\u0440\u0443 \u043A\u0435\u0440\u0435\u043A",
+    "Password required": "\u041F\u0430\u0440\u043E\u043B\u044C\u0434\u044B \u0442\u043E\u043B\u0442\u044B\u0440\u0443 \u043A\u0435\u0440\u0435\u043A"
   }
 };
 
@@ -2042,36 +2057,34 @@ async function signIn(email, password, lang, session) {
   }
   return result;
 }
-async function signUp(name, email, password, photo, lang, session) {
+async function signUp(user, lang, session) {
   const translator = lang in locale_helpers_default ? locale_helpers_default[lang] : new import_i18n3.Translator();
   let result = {
     status: "OK" /* OK */
   };
-  if (!name) {
+  if (!user.fullName) {
     result.status = "Error" /* Error */;
     result.data = translator.translate("Name required");
-  } else if (!email) {
+  } else if (!user.email) {
     result.status = "Error" /* Error */;
     result.data = translator.translate("Email required");
-  } else if (!password) {
+  } else if (!user.password) {
     result.status = "Error" /* Error */;
     result.data = translator.translate("Password required");
   } else {
     try {
-      const exist = await emailExist(email);
+      const exist = await emailExist(user.email);
       if (exist) {
         result.status = "Error" /* Error */;
         result.data = translator.translate("User with this email already exists");
       } else {
+        user.createdAt = Date.now();
+        user.updatedAt = Date.now();
         await knex_default("user").insert({
-          full_name: name,
-          email,
-          password: (0, import_helpers3.generateMD5Hash)(password),
-          photo,
-          created_at: Date.now(),
-          updated_at: Date.now()
+          ...user,
+          password: (0, import_helpers3.generateMD5Hash)(user.password)
         });
-        result = await signIn(email, password, lang, session);
+        result = await signIn(user.email, user.password, lang, session);
       }
     } catch (err) {
       console.error(err);
@@ -2213,19 +2226,19 @@ var sign_up_page_default = `<div data-page="signup-page">\r
         <form method="post" class="mb-1">\r
           <div class="form-item mb-1">\r
             <label \r
-              for="name" \r
+              for="full-name" \r
               class="form-label"            \r
             >\r
               <input \r
                 type="text" \r
-                name="name" \r
-                id="name" \r
+                name="fullName" \r
+                id="full-name" \r
                 class="form-control" \r
                 placeholder="<%= helpers.tr('Name') %>*"\r
                 required\r
               >\r
               <span \r
-                id="name-label"\r
+                id="full-name-label"\r
               >\r
                 <%= helpers.tr('Name') %>*\r
               </span>            \r
@@ -2340,7 +2353,7 @@ var routes_default3 = [{
         const postData = await getRequestData(page.state.request);
         if (page.query.ajax) {
           page.state.response.setHeader("Content-Type", "application/json;charset=UTF-8");
-          const result = await signUp(postData.name || "", postData.email || "", postData.password || "", postData.photo || "", lang, page.state.session);
+          const result = await signUp(postData, lang, page.state.session);
           page.state.response.write(JSON.stringify(result));
         } else {
           page.state.response.statusCode = 302;
@@ -2497,7 +2510,7 @@ var app_default = app;
 // src/server/helpers/session-helpers.ts
 async function clearExpiredSessions() {
   try {
-    await knex_default("session").where("created_at", "<=", Date.now() - 24 * 3600 * 1e3).del();
+    await knex_default("session").where("createdAt", "<=", Date.now() - 24 * 3600 * 1e3).del();
   } catch (err) {
     console.error(err);
   }
@@ -2511,11 +2524,11 @@ async function getSession(sessionId) {
     createdAt: Date.now()
   };
   try {
-    const row = await knex_default("session").where("token", sessionId).first("data", "user_id", "service", "created_at");
+    const row = await knex_default("session").where("token", sessionId).first("data", "userId", "service", "createdAt");
     session.data = JSON.parse(row.data);
-    session.userId = row.user_id;
+    session.userId = row.userId;
     session.service = row.service;
-    session.createdAt = row.created_at;
+    session.createdAt = row.createdAt;
   } catch (err) {
     console.error(err);
   }
@@ -2536,17 +2549,17 @@ async function setSession(session) {
     if (exist) {
       await knex_default("session").where("token", session.id).update({
         data: JSON.stringify(session.data),
-        user_id: session.userId,
+        userId: session.userId,
         service: session.service,
-        created_at: Date.now()
+        createdAt: Date.now()
       });
     } else {
       await knex_default("session").insert({
         token: session.id,
         data: JSON.stringify(session.data),
-        user_id: session.userId,
+        userId: session.userId,
         service: session.service,
-        created_at: Date.now()
+        createdAt: Date.now()
       });
     }
   } catch (err) {
