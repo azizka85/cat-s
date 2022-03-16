@@ -2404,14 +2404,24 @@ async function clearExpiredSessions() {
     console.error(err);
   }
 }
-async function getSessionData(sessionId) {
+async function getSession(sessionId) {
+  const session = {
+    id: sessionId,
+    data: {},
+    userId: null,
+    service: null,
+    createdAt: Date.now()
+  };
   try {
-    const row = await knex_default("session").where("token", sessionId).first("data");
-    return JSON.parse(row.data);
+    const row = await knex_default("session").where("token", sessionId).first("data", "user_id", "service", "created_at");
+    session.data = JSON.parse(row.data);
+    session.userId = row.user_id;
+    session.service = row.service;
+    session.createdAt = row.created_at;
   } catch (err) {
     console.error(err);
   }
-  return {};
+  return session;
 }
 async function sessionExist(sessionId) {
   try {
@@ -2422,18 +2432,22 @@ async function sessionExist(sessionId) {
   }
   return false;
 }
-async function setSessionData(sessionId, data) {
+async function setSession(session) {
   try {
-    const exist = await sessionExist(sessionId);
+    const exist = await sessionExist(session.id);
     if (exist) {
-      await knex_default("session").where("token", sessionId).update({
-        data: JSON.stringify(data),
+      await knex_default("session").where("token", session.id).update({
+        data: JSON.stringify(session.data),
+        user_id: session.userId,
+        service: session.service,
         created_at: Date.now()
       });
     } else {
       await knex_default("session").insert({
-        token: sessionId,
-        data: JSON.stringify(data),
+        token: session.id,
+        data: JSON.stringify(session.data),
+        user_id: session.userId,
+        service: session.service,
         created_at: Date.now()
       });
     }
@@ -2451,7 +2465,7 @@ var server = (0, import_http.createServer)(async (req, res) => {
   const state = {
     request: req,
     response: res,
-    session: await getSessionData(sessionId)
+    session: await getSession(sessionId)
   };
   setCookie(res, "sessionId", sessionId, {
     "Max-Age": `${24 * 3600}`,
@@ -2465,7 +2479,7 @@ var server = (0, import_http.createServer)(async (req, res) => {
     console.error(err);
   }).finally(async () => {
     res.end();
-    await setSessionData(sessionId, state.session);
+    await setSession(state.session);
   });
 });
 server.listen(port, void 0, void 0, () => {
